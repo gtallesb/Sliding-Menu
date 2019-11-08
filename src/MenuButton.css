@@ -1,0 +1,15 @@
+#roundButton {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: blue;
+  margin-bottom: 20px;
+  border: 8px solid #0065A6;
+  outline: none;
+  transition: all .3s;
+}
+
+#roundButton:hover {
+  cursor: pointer;
+  transform: scale(1.2, 1.2);
+}

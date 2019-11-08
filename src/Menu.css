@@ -1,0 +1,30 @@
+#menuFlyOut {
+  width: 100vw;
+  height: 100vh;
+  background-color: #666666;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  overflow: scroll;
+  transition: transform .6s;
+  z-index: 1000;
+}
+
+#menuFlyOut.hidden {
+  transform: translate3d(-100vw, 0, 0);
+}
+
+#menuFlyOut.show {
+  transform: translate3d(0vw, 0, 0);
+  overflow: hidden;
+}
+
+#menuFlyOut a {
+  color: #333;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+#menuFlyOut a:hover {
+  text-decoration: underline;
+}
